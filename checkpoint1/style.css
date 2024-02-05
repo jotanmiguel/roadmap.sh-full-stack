@@ -1,0 +1,205 @@
+body{
+    background: #232830;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: Poppins;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #232830;
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    gap: 20px;
+}
+
+.writings{
+    flex: 1 ;
+}
+
+.group5{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.slogan1{
+    color: #FF7575;
+    font-family: Recursive;
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: 0em;
+}
+
+.slogan2{
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.category-listing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Recursive;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+    border-top: 1px solid #4D4D4D;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.articles-listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center; /* aligns items horizontally to the center */
+    align-items: center; /* aligns items vertically to the center */
+    width: 1244px;
+    height: 1391px;
+    margin: 60px auto;
+    }
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 2 / 1 / 3 / 2; }
+.div5 { grid-area: 2 / 2 / 3 / 3; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+.div7 { grid-area: 3 / 1 / 4 / 2; }
+.div8 { grid-area: 3 / 2 / 4 / 3; }
+.div9 { grid-area: 3 / 3 / 4 / 4; }
+
+.article{
+    border-radius: 22px;
+    padding: 26.5px;
+    display: flex;
+    flex-direction: column;
+    width: 337.08px;
+    height: 439px;
+    background-color: white;
+    max-height: 389px;
+    overflow: hidden; /* Add this line to hide overflowing content */
+}
+
+.article img{
+    min-width: 337.08px;
+    min-height: 160px;
+    background-color: rgb(59, 59, 65);
+    border-radius: 22px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.article>.article-title{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.article>.article-content{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.group1 li:first-of-type{
+    list-style-type: none;
+}
+
+.group1{
+    display: flex;
+    align-items: flex-end;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.pagination{
+    color: #909090;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: Recursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: Recursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.n2{
+    border-top: 1px solid #FF7575;
+}
+
+.footer{
+    margin-top: 1px solid white;
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 50px;
+    border-top: 1px solid #4D4D4D;
+}
+
+.writings1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.twitter{
+    background-color: #4699E0;
+    border-radius: 5px;
+    font-family: Source Sans Pro;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
